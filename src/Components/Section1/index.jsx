@@ -1,9 +1,9 @@
 import React from 'react'
-import Button from '../../Button/Button'
+import Button from '../Button/Button'
 
 function Section() {
   return (
-    <div>
+    <div className='section'>
         <img src="https://new.axilthemes.com/demo/react/abstrak/images/others/bubble-39.png" alt="" />
         <div className='root'>
         <div className='box'>
