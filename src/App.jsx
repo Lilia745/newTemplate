@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import Project from './Components/Project/Project';
 import Section from './Components/Section1';
 import Section2 from './Components/Section2';
+import Team from './Components/Team/Team';
 import Testimonial from './Components/Testimonial/Testimonial';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Project/>
           <FeaturedCase/>
           <Testimonial/>
+          <Team/>
     </div>
   );
 }

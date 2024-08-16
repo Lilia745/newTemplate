@@ -427,3 +427,11 @@ ul{
     border-radius: 50%;
   }
 }
+.TeamDiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #ecf2f6;
+}
