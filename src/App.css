@@ -372,3 +372,58 @@ ul{
   color: white;
   font-size: 20px;
 }
+.TestimonialDiv{
+  width: 100%;
+  padding: 100px 20px;
+}
+.Testimonial{
+  margin-bottom: 30px;
+}
+.Testimonial>h3{
+  color: #b7596e;
+  margin-bottom: 20px;
+}
+.Testimonial>h1{
+  font-size: 45px;
+  color: rgba(0, 0, 0, 0.828);
+  margin-bottom: 20px;
+}
+.Testimonial>p{
+  line-height: 25px;
+  font-size: 20px;
+  color: #767686;
+}
+.PeopelDiv{
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+.Peopel{
+  width: 33%;
+  gap: 10px;
+  padding: 10px;
+  transition: 0.5s;
+  img{
+    margin-bottom: 20px;
+  }
+  &:hover{
+    border-top: 1px solid #5956e9;
+  }
+  h2{
+    color: #454545;
+  }
+}
+.name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  gap: 20px;
+  img{
+    border-radius: 50%;
+  }
+}
