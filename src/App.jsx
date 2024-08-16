@@ -2,6 +2,7 @@ import './App.css';
 import About from './Components/About/About';
 import Client from './Components/Client/Client';
 import FeaturedCase from './Components/FeaturedCase';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Project from './Components/Project/Project';
 import Support from './Components/Projects';
@@ -23,6 +24,7 @@ function App() {
           <Team/>
           <Client/>
           <Support/>
+          <Footer/>
     </div>
   );
 }

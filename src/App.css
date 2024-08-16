@@ -528,3 +528,33 @@ ul{
     }
   }
 }
+footer{
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top:1px solid #ecf2f6 ;
+  div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  div>p{
+    color: #717176;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover{
+      color: #2e2eae;
+    }
+  }
+  p{
+    cursor: pointer;
+    transition: 0.5s;
+    color: #717176;
+    &:hover{
+      color: #5956e9;
+    }
+  }
+}
