@@ -198,7 +198,7 @@ ul{
 }
 .about{
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   background-color: #ecf2f6;
   position: relative;
   display: flex;
@@ -210,7 +210,7 @@ ul{
 }
 .aboutText{
   position: absolute;
-  bottom: 10px;
+  bottom: 100px;
   padding: 30px;
 }
 .aboutText>h4{
@@ -227,9 +227,31 @@ ul{
 }
 .about-text>p{
   font-size: 20px;
-  color: #717176;
+  color: #5f5f61;
   line-height: 30px;
 }
 .form{
+  width: 500px;
   background-color: white;
+  position: absolute;
+  right: 80px;
+  top: 100px;
+  padding: 40px;
+  border-radius: 20px;
+}
+.formText>h1{
+  color: rgba(0, 0, 0, 0.897);
+}
+.formText>h5{
+  margin-top: 20px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.698);
+  margin-bottom: 15px;
+}
+.formText>input{
+  padding: 15px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 20px;
+  border: 1px solid #ecf2f6;
 }
