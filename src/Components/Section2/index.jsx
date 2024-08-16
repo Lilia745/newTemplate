@@ -14,6 +14,11 @@ function Section2() {
         </div>
         <div className='servicesDiv'>
             <Services img="https://new.axilthemes.com/demo/react/abstrak/images/icon/icon-1.png" text="Design"/>
+            <Services img="https://new.axilthemes.com/demo/react/abstrak/images/icon/icon-2.png" text="Development"/>
+            <Services img="https://new.axilthemes.com/demo/react/abstrak/images/icon/icon-3.png" text="Online marketing"/>
+            <Services img="https://new.axilthemes.com/demo/react/abstrak/images/icon/icon-4.png" text="Business"/>
+            <Services img="https://new.axilthemes.com/demo/react/abstrak/images/icon/icon-5.png" text="Technology"/>
+            <Services img="https://new.axilthemes.com/demo/react/abstrak/images/icon/icon-6.png" text="Content strategy"/>
         </div>
     </div>
   )

@@ -13,7 +13,10 @@ function Services(props) {
             <p>workspace to automatically</p>
             <p>add them to your Collab Cloud</p>
             <p>library.</p>
-            <h3>Find out more</h3>
+            <div className="Find">
+                <div className='border'></div>
+                <h3>Find out more</h3>
+            </div>
         </div>
     </div>
   )
