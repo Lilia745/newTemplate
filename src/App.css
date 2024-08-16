@@ -255,3 +255,62 @@ ul{
   border-radius: 20px;
   border: 1px solid #ecf2f6;
 }
+.project{
+  width: 100%;
+  padding: 50px;
+}
+.projectText{
+  margin-bottom: 50px;
+  padding: 30px;
+}
+.projectText>h4{
+  color: #b7596e;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.projectText>h1{
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.843);
+}
+.agency{
+  border-radius: 20px;
+  width: 48%;
+  background-color: rgba(0, 0, 0, 0.011);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  margin-bottom: 40px;
+  -webkit-box-shadow: -1px 0px 37px -13px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 0px 37px -13px rgba(0,0,0,0.75);
+  box-shadow: -1px 0px 37px -13px rgba(0,0,0,0.75);
+  img{
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+}
+.agency>h1{
+  font-size: 30px;
+  padding: 20px;
+  color: #27272e;
+  transition: 0.5s;
+  cursor: pointer;
+  &:hover{
+    color: #2e2eae;
+  }
+}
+.agency>p{
+  padding: 0px 20px;
+  color: #27272ed5;
+}
+.agencyDiv{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
