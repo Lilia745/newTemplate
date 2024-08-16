@@ -434,4 +434,47 @@ ul{
   align-items: center;
   gap: 20px;
   background-color: #ecf2f6;
+  padding: 30px;
+}
+.div{
+  width: 33%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #ecf2f6;
+  transition: 0.5s;
+  h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    color: #27272e;
+  }
+  &:hover{
+    background-color: #2e2eae;
+    div>h1{
+      color: white;
+    }
+    div>p{
+      color: white;
+    }
+    h1{
+      color: white;
+    }
+  }
+  div>h1{
+    color: #2e2eae;
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+  div{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid  #cecfd0;
+  }
+  div>p{
+    color: #454545;
+  }
 }
