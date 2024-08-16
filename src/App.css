@@ -478,3 +478,34 @@ ul{
     color: #454545;
   }
 }
+.clientDiv{
+  padding: 100px 20px;
+  width: 100%;
+  background-color: #27272e;
+}
+.Client>h1{
+  color: white;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.Client>h3{
+  color: #b7596e;
+  margin-bottom: 20px;
+}
+.Client>p{
+  line-height: 25px;
+  font-size: 20px;
+  color: #94949d;
+}
+.icon{
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  img{
+    cursor: pointer;
+  }
+}
