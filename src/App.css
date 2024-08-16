@@ -509,3 +509,22 @@ ul{
     cursor: pointer;
   }
 }
+.supportDiv{
+  width: 100%;
+  padding: 50px;
+  div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  div>ion-icon{
+    color: #454545;
+    font-size: 35px;
+    transition: 0.5s;
+    cursor: pointer;
+    &:hover{
+      color: #2e2eae;
+    }
+  }
+}

@@ -4,6 +4,7 @@ import Client from './Components/Client/Client';
 import FeaturedCase from './Components/FeaturedCase';
 import Header from './Components/Header/Header';
 import Project from './Components/Project/Project';
+import Support from './Components/Projects';
 import Section from './Components/Section1';
 import Section2 from './Components/Section2';
 import Team from './Components/Team/Team';
@@ -21,6 +22,7 @@ function App() {
           <Testimonial/>
           <Team/>
           <Client/>
+          <Support/>
     </div>
   );
 }
