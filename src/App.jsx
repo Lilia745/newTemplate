@@ -1,5 +1,6 @@
 import './App.css';
 import About from './Components/About/About';
+import FeaturedCase from './Components/FeaturedCase';
 import Header from './Components/Header/Header';
 import Project from './Components/Project/Project';
 import Section from './Components/Section1';
@@ -13,6 +14,7 @@ function App() {
           <Section2/>
           <About/>
           <Project/>
+          <FeaturedCase/>
     </div>
   );
 }

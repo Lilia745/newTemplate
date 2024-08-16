@@ -91,7 +91,7 @@ ul{
 }
 .people{
   position:absolute;
-  top: -55px;
+  top: -80px;
   right: 30px;
 }
 .img{
@@ -313,4 +313,62 @@ ul{
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+.featuredCaseDiv{
+  width: 100%;
+  background-color: #27272e;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+.featuredCase{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.featuredCase>h3{
+  color: #b7596e;
+  margin-bottom: 20px;
+}
+.featuredCase>h1{
+  color: white;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.featuredCase>p{
+  line-height: 25px;
+  font-size: 20px;
+  color: #767686;
+}
+.parcentDiv{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.parcent{
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 50px 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 20px;
+  &:hover{
+    background-color: rgba(255, 255, 255, 0.044);
+  }
+}
+.parcent>h1{
+  color: #5956e9;
+  font-size: 50px;
+}
+.parcent>h2{
+  color: white;
+  font-size: 20px;
 }
